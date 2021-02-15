@@ -212,6 +212,11 @@ img {
   color: var(--accent-color);
 }
 
+.info:hover > svg,
+.info:focus > svg {
+  fill: var(--accent-color);
+}
+
 .address-list-item-link {
   font-family: var(--text-font);
   font-style: normal;
