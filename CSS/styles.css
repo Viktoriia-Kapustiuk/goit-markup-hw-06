@@ -959,7 +959,7 @@ img {
   display: inline-block;
   width: 16px;
   height: 15px;
-  background-image: url(/6-hw/rectangle.svg);
+  background-image: url(../6-hw/rectangle.svg);
   margin-right: 10px;
   border-radius: 2px;
 }
