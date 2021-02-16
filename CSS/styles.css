@@ -895,12 +895,13 @@ img {
   letter-spacing: 0.01em;
 
   color: var(--main-color);
+
+  margin-bottom: 10px;
 }
 
 .input-wrapper {
   position: relative;
   display: block;
-  margin-bottom: 10px;
 }
 
 .modal-form-input {
@@ -975,6 +976,10 @@ img {
 }
 
 .modal-form-input-policy {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
   font-family: var(--text-font);
   font-weight: 400;
   font-size: 14px;
