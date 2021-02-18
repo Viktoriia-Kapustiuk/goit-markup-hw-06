@@ -182,6 +182,7 @@ img {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
+  cursor: pointer;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -655,13 +656,13 @@ img {
   margin-bottom: 30px;
 }
 
-.projects-list-item.link {
+.projects-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-list-item.link:hover,
-.projects-list-item.link:focus {
+.projects-link:hover,
+.projects-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -673,11 +674,11 @@ img {
   margin-bottom: 30px;
 }
 
-.projects-list-item:hover,
+/*.projects-list-item:hover,
 .projects-list-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .projects-inbox {
   width: 370px;
@@ -712,8 +713,8 @@ img {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects-list-item > .link:hover .overlay-cards,
-.projects-list-item > .link:focus .overlay-cards {
+.projects-link:hover .overlay-cards,
+.projects-link:focus .overlay-cards {
   transform: translateY(0%);
 }
 
@@ -850,7 +851,8 @@ img {
 .backdrop {
   position: fixed;
   width: 100%;
-  height: 1024px;
+  bottom: 0;
+  right: 0;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.2);
@@ -962,9 +964,9 @@ img {
   border-color: var(--accent-color);
 }
 
-/* .modal-form-check-policy:focus + .modal-form-input-policy::before {
-  outline: 1px solid var(--accent-color); 
-} */
+.modal-form-check-policy:focus .modal-form-input-policy::before {
+  fill: var(--accent-color);
+}
 
 .modal-form-input-policy::before {
   content: "";

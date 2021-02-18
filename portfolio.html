@@ -36,16 +36,19 @@
             <div class="auth-nav">
                 <ul class="auth-nav-list">
                     <li class="auth-nav-item link">
-                        <svg class="contacts-icon convert">
-                            <use href="./sprite-2.svg#icon-envelope-hover-1" class="envelope"></use>
-                        </svg>
-                        <a class="info mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        
+                        <a class="info mail" href="mailto:info@devstudio.com">
+                            <svg class="contacts-icon convert">
+                                <use href="./sprite-2.svg#icon-envelope-hover-1" class="envelope"></use>
+                            </svg>info@devstudio.com
+                        </a>
                     </li>
                     <li class="auth-nav-item link">
-                        <svg class="contacts-icon tel">
-                            <use href="./sprite-2.svg#icon-smartphone-1" class="phone"></use>
-                        </svg>
-                        <a class="info tel" href="tel:+380961111111">tel:+380961111111</a>
+                        <a class="info tel" href="tel:+380961111111">
+                            <svg class="contacts-icon tel">
+                                <use href="./sprite-2.svg#icon-smartphone-1" class="phone"></use>
+                            </svg>+380961111111
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +82,7 @@
             <div class="container">
                 <ul class="projects-list list">
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgproject1-о.jpg" alt="Фото наших разработчиков">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -94,7 +97,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject2-о.jpg" alt="Баскетболист выхватывет мяч">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -109,7 +112,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject3-о.jpg" alt="Логотип ресторана">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -124,7 +127,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject4-о.jpg" alt="Наушники">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -139,7 +142,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject5-о.jpg" alt="Фото коробков">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -154,7 +157,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject6-о.jpg" alt="Фото монитора">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -169,7 +172,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject7-о.jpg" alt="Открытая книга">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -184,7 +187,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject8-о.jpg" alt="Фото лэйбла">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -199,7 +202,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item">
-                        <a class="link" href="#">
+                        <a class="projects-link link" href="#">
                             <div class="thumb-wrapper">
                                 <img class="projects-list-item-img" src="./images/Projects/imgProject9-о.jpg" alt="Работа на ноутбуке">
                                 <p class="overlay-cards">Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -272,6 +275,18 @@
                     </li>
                 </ul>
             </div>
+            <form action="#" class="footer-form">
+                <p class="footer-form-text">Подпишитесь на рассылку</p>
+                <span class="footer-form-box">
+                    <input type="email" name="user-policy" class="footer-form-input" placeholder="E-mail" />
+                    <button class="footer-form-btn">
+                        Подписаться
+                        <svg class="footer-form-ikon">
+                            <use href="./6-hw/iconsend.svg#iconsend"></use>
+                        </svg>
+                    </button>
+                </span>
+            </form>
         </div>
     </footer>
 </body>
